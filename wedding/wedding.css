@@ -1,0 +1,126 @@
+
+body {
+	margin-left: 20px;
+	margin-top: 20px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	background: rgb(251,244,228) url("creambg2.gif") repeat;
+	/*background-color: rgb(251,244,228);
+	background-image: url("creambg.gif");
+	background-position: 250px 100px;
+	background-repeat: repeat;
+	background-attachment: fixed; */
+	width: 700px;
+}
+
+
+table.wedbody {
+	margin: 0;
+	border-width: 0;
+	border-spacing: 0px;
+}
+
+td.wedtd {
+	border-width: 0;
+	padding: 0;
+	height: 100%;
+}
+
+td.wednavtd {
+	border-width: 0;
+	padding: 0;
+	height: 100%;
+	background: rgb(155,42,60) url("navigationbg.gif") repeat;
+}
+
+div {
+	margin-top: 0em;
+	border-width: 0em;
+	padding: 0em;
+}
+
+div.navigation {
+	background: rgb(155,42,60) url("navigationbg.gif") repeat; 
+	border-width: 0em;
+	padding: 0em;
+	margin-top: 0em;
+	margin-right: 0em;
+	line-height: 150%;
+	font-weight: bold;
+	height: 100%;
+}
+
+a.navigation:link {color: rgb(251,244,228);
+}
+a.navigation:active {color: rgb(251,244,228);
+}
+a.navigation:visited {color: rgb(251,244,228);
+}
+
+a.wedphoto:link {color: black;
+}
+a.wedphoto:active {color: black;
+}
+a.wedphoto:visited {color: black;
+}
+
+p.navbr {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-indent: 2em;
+	
+}
+p.navbrsplit {
+	margin-top: 1em;
+	margin-bottom: 0;
+	text-indent: 2em;
+	
+
+}
+p.navbr2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-indent: 4em;
+	
+
+}
+div.header {
+	background: rgb(155,42,60) url("redbg10.gif") repeat;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	text-align: center;
+	/*width: 700px; */
+	/* float: right;  -- these do not work!*/
+}
+
+h2.wedh2 {
+	font-family: Arial, sans-serif;
+}
+
+div.content {
+	margin-left: 1em;
+	margin-right: 1em;
+	text-align: left;
+}
+
+div.footer {
+	margin-top: 1em;
+	margin-bottom: 10px;
+}
+
+div.footerleft {
+	margin-right: 1em;
+	float: left;
+	text-align: left;
+}
+
+div.footerright {
+	margin-left: 1em;
+	margin-bottom: 1em;
+	float: right;
+	text-align: right;
+}
+/*
+td.texttop {
+	valign: top;
+}
+*/

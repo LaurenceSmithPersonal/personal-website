@@ -1,0 +1,72 @@
+<HTML>
+    <HEAD>
+        <TITLE>Laurence Smith - Sudoku</TITLE>
+        <META name="keywords" content="Sudoku"></META>
+        <META name="description" content="Laurence Smith's Sudoku Java help"></META>
+        <script SRC="date.js">
+        </script>
+        <script SRC="menu.js">
+        </script>
+            <link href="laz.css" rel="stylesheet" type="text/css">
+    </HEAD>
+
+    <BODY link="#000000" vlink="#606060" alink="#000000">
+        <TABLE width="700" height="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td valign="top">
+                    <script language="javascript">
+                        sidemenu();
+                    </script>
+                </td>
+        
+                <td  width=600 valign="top">
+                    <TABLE width="600" border="0" cellpadding="5" cellspacing="5">
+                        <tr>
+                            <td valign="top" align="right"><font face="Arial,Helvetica,sans-serif" size="2">
+                                <script language="javascript">
+                                    document.write(date,' ',print2, ' ',year);
+                                </script>
+                            </font></td>
+                        </tr>
+                        <tr valign="top">
+                            <th valign="top"><font size="4"><b>Sudoku</b></font></th>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                            <p>Sudoku is a number puzzle.  
+                            You have to fill in a supplied grid so that every column, every row and every 3x3 box contains the digits 1 to 9.  Some digits are given as a starting point and from these you can work out where all the other digits should go.
+                                
+                            <p>To solve the puzzle you need to keep track of which numbers are allowed to be placed in each square. You can either do this through memory - too difficult for me - 
+                            or by writing the numbers in the squares. However, normally there is a small 9x9 grid and if you have handwriting like mine this quickly gets very messy.
+                                
+                            <p>So, I've created a Java program where each one of the 81 squares is further divided into 9 squares.  Each of these squares starts showing the 9 possible values for the containing square.
+                            If you left click on one of these small grey numbers it disappears.  When only one number remains it is replaced by a large black number to show the solution for that square.  Or, if you know the solution to a square you can right click on that small grey number to create the large black number.
+                            
+                            <p>Note: you are not given any help with the thought required in solving the puzzle! But it does help with keeping track of things.
+                            
+                            <p>You can <a href="https://github.com/LaurenceSmithPersonal/SudokuHelper/blob/master/SudokuHelper.jar">download a "JAR" file</a> to run the application or see the source code on my <a href="https://github.com/LaurenceSmithPersonal/SudokuHelper">GitHub site</a>.
+                            
+                            <p>Here is a screenshot:
+                                <BR><IMG src="SudokuHelperPic.png"></IMG></BR>
+                            
+                            <p>Selecting "automatic removal" means that when an individual square has been solved, 
+                            all other individual squares in the row, column and 3x3 square will have that number removed from their
+                            allowed numbers.  Warning - this makes the game lot easier to solve and takes some of the fun away.
+                                
+                            <p>The three text fields and "add to puzzle" button are for quickly adding numbers to the puzzle, 
+                            particularly useful for inputting the initial numbers.
+                            
+                            <p>The "reset" button returns the puzzle to its blank state - only use this if you have made a mistake.
+                            
+                            <p>Have fun.
+                                </td></tr>
+                        <tr>
+                            <td valign="top"><font size=1>Page Created: 16 November 2004
+                                <BR>Updated: 30 January 2021</BR></font></td>
+                        </tr>
+                    </TABLE>
+                </td>
+            </tr>
+        </TABLE>
+    </BODY>
+</HTML>

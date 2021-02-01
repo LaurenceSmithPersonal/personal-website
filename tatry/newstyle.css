@@ -1,0 +1,64 @@
+
+body {
+	MARGIN-LEFT: 2em; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	color: white;
+	BACKGROUND: black;
+	
+}
+
+div.navigation {
+	margin-right: 2em;
+	line-height: 250%;
+	font-weight: bold;
+	
+}
+
+div.header {
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	text-align: right;
+	/* width: 100%;
+	float: right;  -- these do not work!*/
+}
+
+div.content {
+	text-align: left;
+}
+
+div.footer {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+div.footerleft {
+	margin-right: 1em;
+	float: left;
+	text-align: left;
+}
+
+div.footerright {
+	margin-left: 1em;
+	float: right;
+	text-align: right;
+}
+
+a img {
+	border:0;
+}
+
+/*  trying different image things *
+#thumbs a img {
+	border:0;
+}
+
+a.thumbs:link {
+	color: red;
+}
+
+*/
+
+img.thumbs {
+	margin: 5px;
+	/* margin-right: 5px; */
+}
